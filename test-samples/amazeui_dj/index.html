@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo for dj</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/1.0.1/css/amazeui.min.css"> 
+
+    <style>
+        html {
+            background: #2d3e50;
+        }
+
+        body {
+            background: #fff;
+        }
+
+        .intro {
+            padding: 10px;
+            height: 220px;
+
+            border: 1px solid #ccc;
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+
+        .center-content h2 {
+            text-align: center;
+        }
+
+        .center-content {
+            margin-bottom: 30px;
+            height: 500px;
+        }
+
+        .center-content .center-model {
+            border: 1px solid #ccc;
+            margin: 0 auto;
+            text-align: center;
+            height: 150px;
+        }
+
+        .footer p {
+          color: #7f8c8d;
+          margin: 0;
+          padding: 15px 0;
+          text-align: center;
+          background: #2d3e50;
+        }
+    </style>
+
+</head>
+<body>
+<header class="am-topbar am-topbar-fixed-top">
+  <div class="am-container">
+    <h1 class="am-topbar-brand">
+      <a href="#">site title</a>
+    </h1>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-nav">
+        <li class="am-active"><a href="#">首页</a></li>
+        <li><a href="#">项目</a></li>
+        <li class="am-dropdown" data-am-dropdown>
+          <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            下拉菜单 <span class="am-icon-caret-down"></span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li class="am-dropdown-header">标题</li>
+            <li><a href="#">1. 默认样式</a></li>
+            <li><a href="#">2. 基础设置</a></li>
+            <li><a href="#">3. 文字排版</a></li>
+            <li><a href="#">4. 网格系统</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="am-topbar-right">
+        <button class="am-btn am-btn-secondary am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button>
+      </div>
+
+      <div class="am-topbar-right">
+        <button class="am-btn am-btn-primary am-topbar-btn am-btn-sm"><span class="am-icon-user"></span> 登录</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="am-g am-container">
+    <div class="col-lg-12">
+
+        <div class="intro">
+            <p>里面的padding 10px</p>
+        </div>
+      
+    </div>
+</div>
+
+<div class="center-content">
+  <div class="am-g am-container">
+    <div class="col-lg-12">
+      <h2>以下三个可以根据屏幕尺寸自适应</h2>
+
+      <div class="am-g">
+
+        <!-- 第一个 -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <div class="center-model">
+                <p>内容居中</p>
+            </div>
+
+        </div>
+
+        <!-- 第二个 -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <div class="center-model">
+                <p>内容居中</p>
+            </div>
+
+        </div>
+
+
+         <!-- 第二个 -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <div class="center-model">
+                <p>内容居中</p>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2014 dj.wang </p>
+</footer>
+
+<script src="http://cdn.staticfile.org/zepto/1.1.4/zepto.min.js"></script> 
+<script src="http://cdn.amazeui.org/amazeui/1.0.1/js/amazeui.min.js"></script>    
+</body>
+</html>
